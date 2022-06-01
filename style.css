@@ -1,0 +1,266 @@
+.caja1 {
+    background-color: #1f2937;
+    height: 500px;
+    width: 100%;
+    flex-direction: row;
+}
+.logo { 
+    position: absolute;
+    color: #f9faf8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    display:inline-flex;
+    margin-left: 200px;
+    box-sizing: border-box;
+    
+    
+}
+
+img {
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    right: 90px;
+    margin-top: 60px;
+}
+
+#subtitle {
+    font-family: sans-serif;
+    color: #f9faf8;
+    font-size: 48px;
+    height: 200px;
+    width: 350px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    font-weight: bold;
+    display: flex;
+
+}
+
+#primerparrafo {
+    color:#e5e7eb;
+    font-family: sans-serif;
+    margin-left: 200px;
+    box-sizing: border-box;
+    margin-top: 0%;
+    width: 350px;
+    font-size: 18px;
+
+}
+
+
+.button {
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 200px;
+    color:white ;
+    background-color: #3882f6;
+    padding: 10px 24px;
+    font-size:20px ;
+    margin-top: 20px;
+    transition-duration: 0.4s
+    
+
+
+  }
+
+  .button:hover {
+    background-color: rgb(29, 29, 95);
+    color: white;
+  }
+
+#titulo {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.mini {
+    margin: 50px;
+    width: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.imagen {
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    position: sticky;
+    right: 50px;
+}
+
+#imagenes {
+    display:block;
+    text-align: center;
+    position: relative; 
+
+    margin-bottom: 100px;
+      
+}
+
+.texto {
+    position: sticky;
+    display: inline-flex;
+}
+#caja3 {
+    background-color: #e5e7eb;
+    height: 500px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    top: 150px;
+
+}
+.texto2 {
+    position: relative;
+    margin: 150px;
+    top: 150px;
+    font: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    }
+
+.casifinal {
+    
+    height: 400px;
+    width: 100%;
+
+}
+
+#box {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    top: 60px;
+    height: 200px;
+    margin: 250px;
+    background-color: #3882f6;
+}
+
+#frase{ 
+
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #e5e7eb;
+    display: inline-flex;
+    position: sticky;
+    font-size: 30px;
+    height: 70px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+   
+    
+}
+#subtexto {
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #e5e7eb;
+    position: relative;
+    display: inline-flex;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 60px;
+   
+    
+
+}
+
+#elboton {
+    
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    
+}
+.boton {   
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 100px;
+    color:white ;
+    background-color: #3882f6;
+    padding: 10px 24px;
+    font-size:20px ;
+    transition-duration: 0.4s   
+
+}
+.boton:hover {
+    background-color: rgb(29, 29, 95);
+    color: white;
+  }
+
+#ultimo {
+    height: 80px;
+    width: 100%;
+    background-color: #1f2937;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #f9faf8;
+
+}
+
+#linkes {
+    
+    color: #f9faf8;
+    display: inline-flex;
+    text-align: end;
+    background-color: #1f2937;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+
+}
+
+#linkes:hover {
+    background-color: #3882f6;
+}
+
+#linkes2 {
+    
+    color: #f9faf8;
+    display: inline-flex;
+    text-align: end;
+    background-color: #1f2937;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    
+
+}
+#linkes2:hover {
+    background-color: #3882f6;
+}
+#linkes3 {
+    color: #f9faf8;
+    display: inline-flex;
+    text-align: end;
+    background-color: #1f2937;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+
+}
+#linkes3:hover {
+    background-color: #3882f6;
+}
+#cabe { 
+    
+    text-align: end;
+    margin-right: 150px;
+    margin-left: 20px;
+    gap: 30px;
+}
